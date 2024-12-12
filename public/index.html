@@ -1,26 +1,182 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Snake Game</title>
-	<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+    <title>𝐷𝐴𝑉𝐵𝑂𝑇</title>
+
+      <!--Meta Tags-->
+	    <meta property="og:title" content="Davbot 𓅃">
+  <meta property="og:description" content="OctobotRemake Auto Helps You create messenger bot without coding skills">
+  <meta property="og:image" content="res/logo1.png">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Davbot 𓅂">
+   <link rel="icon" sizes="192x192" href="res/logo.png">
+  <meta name="mobile-web-app-capable" content="yes">
+  <!--endOfShit-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@10">
+    <link rel="stylesheet" href="1.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-	<div id="game-container">
-		<canvas id="gc" class="game-canvas" width="400" height="400"></canvas>
-	</div>
-	<div class="keys">
-	  <a class="up arr" onclick="Snake.action('up')">
-	    <i class="chevron up"></i></a>
-	  <br />
-	  <a class="left arr" onclick="Snake.action('left')">
-	    <i class="chevron left"></i></a>
-	  <a class="down arr" onclick="Snake.action('down')">
-	    <i class="chevron down"></i></a>
-	  <a class="right arr" onclick="Snake.action('right')">
-	    <i class="chevron right"></i></a>
-	</div>
-	<script type="text/javascript" src="game.js"></script>
+    <div id="splash">
+        <h2>𓅃</h2>
+    </div>
+    <!-- The Modal -->
+<div class="octo_modal">
+  <!-- Modal content -->
+  <div class="modal-content">
+  <span class="octo_close">&times;</span>
+      <strong>About</strong>
+    <div class="modal-body">
+    <center>
+    <img style="width:30px" src="res/logo.png"></img>
+    <br>
+    <code>
+   <b style="color:black">𝐃𝐀𝐕𝐁𝐎𝐓 𝑣𝑒𝑟𝑠𝑖𝑜𝑛 𝕄𝔼𝕊𝕊𝕀𝔼𓅃</b>
+   <p>_____________________________________</p> 
+   <p>𝐼𝑙 𝑎 𝑠𝑖𝑚𝑝𝑙𝑒 𝑎𝑛𝑑 𝑒𝑓𝑓𝑒𝑐𝑡𝑖𝑣𝑒 𝐹𝐴𝐶𝐸𝐵𝑂𝑂𝐾 𝐵𝑂𝑇 𝑑𝑒𝑣𝑒𝑙𝑜𝑝𝑝𝑒𝑑 𝐵𝑦</p> <strong  style="color:green">𝐷𝐴𝑉𝐼𝐷 𝔻𝔼𝕍𝔼𝕃𝕆ℙ𝔼ℝ</strong> 
+   <p>ℂ𝕖 𝕡𝕣𝕠𝕛𝕖𝕥 𝐕𝐈𝐒𝐄 Á 𝐀𝐈𝐃𝐄𝐑 𝐂𝐄𝐑𝐓𝐀𝐈𝐍𝐒</p> <i style="color:red">Bot Creator</i> 
+   <p>𝑝𝑜𝑢𝑟 𝑑𝑒𝑝𝑙𝑜𝑦𝑒𝑟 𝑙𝑒 𝐹𝐵𝐵𝑂𝑇 𝑑'𝑢𝑛𝑒 𝑚𝑎𝑛𝑖è𝑟𝑒 𝑠𝑖𝑚𝑝𝑙𝑒 𝑆𝑎𝑛𝑠 𝐶𝑂𝐷𝐸𝑅</p>
+     </code>
+    </center>
+      <ul class="donator-list"> 
+
+       
+            <strong style="color: purple">Donators/Supporters:</strong>
+        <li>
+        <a href="https://www.facebook.com/profile.php?id=100092277325670">
+        <img src="res/pusa.jpg" alt="Picture 2"></a>
+        </li>
+      </ul>
+   </div>
+  </div>
+</div>
+
+<!--banJnzn-->
+<!-- The Modal -->
+<div class="octo_as">
+  <!-- Modal content -->
+  <div class="modal-content">
+  <div class="octo_as_close">&times;</div>
+    <div class="modal-body">
+             <h3>𝐆𝐔𝐈𝐃𝐄</h3>
+  <p>____♣______♣___________♣________♣_______</p>
+ <img style="width:100%" src="guides/1.jpg"></img>
+ <button>
+<a href="https://play.google.com/store/apps/details?id=com.kiwibrowser.browser">⬇️𝐶𝐿𝐼𝑄𝑈𝐸𝑍 𝐿Á 𝑃𝑂𝑈𝑅 𝐴𝐶𝐶𝐸𝐷𝐸𝑅 𝐴𝑈 𝑁𝐴𝑉𝐼𝐺𝐴𝑇𝐸𝑈𝑅</a>
+</button>
+ <hr>
+  <img style="width:100%" src="guides/2.jpg"></img> 
+  <button>
+  <a href="https://github.com/c3cbot/c3c-fbstate/archive/refs/tags/1.5.zip ">𝐶𝐿𝐼𝑄𝑈𝐸𝑍 𝐼𝐶𝐼 𝑃𝑂𝑈𝑅 𝐷𝐿 𝐶𝟑𝐶-𝐹𝐵𝑆𝑇𝐴𝑇𝐸</a>
+  </button>
+  <hr>
+  <img style="width:100%" src="guides/3.jpg"></img> 
+  <hr>
+  <img style="width:100%" src="guides/4.jpg"></img> 
+  <hr>
+  <img style="width:100%" src="guides/5.jpg"></img> 
+  <hr>
+  <img style="width:100%" src="guides/6.jpg"></img> 
+  <hr>
+  <img style="width:100%" src="guides/7.jpg"></img> 
+  <code style="color:green">
+  𝑌𝑂𝑈 𝐴𝑅𝐸 𝑇𝐻𝐸 𝐵𝐸𝑆𝑇
+  </code>
+
+   </div>
+  </div>
+</div>
+<!--$&::;;;-->
+<dialog id="donateBanner" class="donate-banner">
+<img style="width:40px" src="res/logo.png"></img>
+        <p>𓅃 ℎ𝑒𝑦 𝑣𝑜𝑢𝑑𝑟𝑖𝑒𝑧 𝑣𝑜𝑢𝑠 𝑛𝑜𝑢𝑠 𝑓𝑎𝑖𝑟𝑒 𝑢𝑛 𝑑𝑜𝑛 ?
+𝑛𝑜𝑢𝑠 𝑙'𝑎𝑐𝑐𝑒𝑝𝑡𝑜𝑛𝑠 𝑙𝑒 𝑝𝑎𝑖𝑒𝑚𝑒𝑛𝑡 𝑒𝑛 𝑒𝑠𝑝𝑒𝑐𝑒
+𝑡𝑜𝑢𝑡 𝑚𝑜𝑛𝑡𝑎𝑛𝑡 𝑠𝑒𝑟𝑎 𝐴𝐶𝐶𝐸𝑃𝑇É 𝑒𝑡 𝐴𝑃𝑃𝑅𝐸𝐶𝐼É</p>
+  
+        <span  id="donateButton">Donate</span>
+       
+        <span id="closeButton">CLOSE</span>
+    </dialog>	
+
+<!--ajjNznJJ-->
+    <div class="navbar">
+        <img style="width:100%" src="https://i.imgur.com/uMuopp3.png" border="0">
+    </div>
+    <!--D2CINTEBR-->
+    <div class="container">
+         <code style="color:red;font-size: 9px">**Use Dummy Account </code>
+        <form id="loginForm">
+            <label for="appState">𝐥𝐨𝐠𝐢𝐧 𝐚𝐩𝐩𝐬𝐭𝐚𝐭𝐞</label>
+            <p></p>
+            <textarea id="appState" placeholder='[
+    {
+        "key": "sb",
+        "value": "KJZKZtc9XItC51NZU8HfLeQ-",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-05-24T04:31:46.371Z",
+        "lastAccessed": "2024-05-24T04:31:46.373Z' name="appState" rows="5" required></textarea>
+        <p>𝐶𝑂𝑁𝑇𝐼𝑁𝑈𝐸𝑍</p>
+            <label for="admin_uid" required>𝐀𝐃𝐌𝐈𝐍 𝐔𝐈𝐃:</label>
+            <input type="text" placeholder= "61556251846264" id="admin_uid" name="admin_uid" required>
+            <p>𝑁𝐸𝑋𝑇 =></p>
+            <label for="prefix">𝑆𝐸𝐿𝐸𝐶𝑇𝐼𝑂𝑁𝑁𝐸𝑍 𝑉𝑂𝑇𝑅𝐸 𝑃𝑅𝐸𝐹𝐼𝑋<p></p></label>
+            
+            <!-- old 
+            <input type="text" id="prefix" name="prefix">
+            -->
+            <select id="prefix"  class="myPrefix" name="prefix" required>
+  
+  <option value="!">!</option>
+  <option value="?">?</option>
+  <option value=",">,</option>
+  <option value="/">/</option>
+  <option value="+">+</option>
+  <option value=".">.</option>
+    <option value="_">_</option>
+      <option value="$">$</option>
+        <option value="*">*</option>
+      <option value="#">#</option>    
+        <option value="@">@</option>
+          <option value="&">&</option>
+</select>
+<p>𝐴𝑃𝑃𝑈𝑌𝐸𝑍 𝑆𝑈𝑅 : 𝐿𝑂𝐺𝐼𝑁</p>
+
+            <button type="submit"><img style="width: 200px" src="https://i.imgur.com/Hi7NNZW.png" border="0"></button>
+        </form>
+        
+        <br>
+        <!--CONSOLE LOG-->
+        <div class="box log-box" id="logs">
+            <h1>Logs</h1>
+        </div>
+        <!--Mdnu-->
+        <div  class="box">
+        <h1>Menu</h1>
+<div class="button-container">
+            <button class="btn" id="show-commands-btn">Show Commands</button> 
+            <button class="open-modal">ABOUT</button>
+<button style="" class="open-appstategetter">Get Appstate?</button>
+        </div></div>
+        <!--Active Season-->
+        <div class="box" id="activeSessions">
+            <h1>Active Sessions</h1>
+        </div>
+
+    </div>
+<!--FOOTER MDF-->
+    <div style="background-color:black"class="footer">
+       <span  id="active"></span> | © Rejard 2024 - OBRV3
+    </div>
+    <!--SCRIPTS-->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+     <script src="1.js"></script>
+    <script src="script.js"></script>
+    <script src="res/banner.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
 </body>
-</html>
+	</html>
